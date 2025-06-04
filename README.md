@@ -3,7 +3,7 @@
 
 API feita para a disciplina de backend, com cadastro de clientes, produtos, categorias, vendas, login e registro.
 
-## 🚀 Tecnologias usadas
+## Tecnologias usadas
 
 - Node.js
 - Express
@@ -14,7 +14,7 @@ API feita para a disciplina de backend, com cadastro de clientes, produtos, cate
 - Cors
 - Testado no Insomnia
 
-## ⚙️ Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Clone o repositório
 
@@ -56,14 +56,14 @@ Conectado ao MongoDB com sucesso
 
 Está funcionando!
 
-## 🌐 Rotas
+## Rotas
 
-### 🔐 Autenticação
+### Autenticação
 
 - POST `/api/registrar` → Registrar usuário
 - POST `/api/login` → Login
 
-### 👥 Clientes
+### Clientes
 
 - GET `/api/clientes` → Lista todos
 - GET `/api/clientes/:id` → Busca por ID
@@ -72,7 +72,7 @@ Está funcionando!
 - PUT `/api/clientes/:id` → Atualizar cliente
 - DELETE `/api/clientes/:id` → Remover cliente
 
-### 📦 Produtos
+### Produtos
 
 - GET `/api/produtos` → Lista todos
 - GET `/api/produtos/:id` → Busca por ID
@@ -81,7 +81,7 @@ Está funcionando!
 - PUT `/api/produtos/:id` → Atualizar produto
 - DELETE `/api/produtos/:id` → Remover produto
 
-### 🗂️ Categorias
+### Categorias
 
 - GET `/api/categorias` → Lista todas
 - GET `/api/categorias/:id` → Busca por ID
@@ -90,7 +90,7 @@ Está funcionando!
 - PUT `/api/categorias/:id` → Atualizar categoria
 - DELETE `/api/categorias/:id` → Remover categoria
 
-### 🧾 Vendas
+### Vendas
 
 - GET `/api/vendas` → Lista todas
 - GET `/api/vendas/:id` → Busca por ID
@@ -98,7 +98,7 @@ Está funcionando!
 - PUT `/api/vendas/:id` → Atualizar venda
 - DELETE `/api/vendas/:id` → Remover venda
 
-## 🔑 Autenticação
+## Autenticação
 
 As rotas são protegidas por autenticação. Após realizar o login, é necessário enviar o token no header:
 
@@ -106,7 +106,7 @@ As rotas são protegidas por autenticação. Após realizar o login, é necessá
 Authorization: Bearer seu_token
 ```
 
-## 📑 Exemplo de JSON de uma venda
+## Exemplo de JSON de uma venda
 
 ```json
 {
