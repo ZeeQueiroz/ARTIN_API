@@ -32,7 +32,6 @@ npm install
 
 ```env
 MONGO_URL=sua_string_de_conexao_do_mongo
-JWT_SECRET=sua_chave_secreta
 ```
 
 ### 4. Rode o projeto
