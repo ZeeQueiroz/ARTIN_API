@@ -104,35 +104,3 @@ As rotas são protegidas por autenticação. Após realizar o login, é necessá
 ```
 Authorization: Bearer seu_token
 ```
-
-## Exemplo de JSON de uma venda
-
-```json
-{
-  "data": "2025-05-09",
-  "numeroNota": "123456",
-  "cliente": {
-    "cpf": "123.456.789-00",
-    "nome": "João da Silva",
-    "endereco": {
-      "rua": "Rua das Flores",
-      "numero": 123,
-      "bairro": "Centro",
-      "cidade": "São Paulo",
-      "estado": "SP",
-      "cep": "01001-000"
-    },
-    "telefone": "(11) 98765-4321",
-    "email": "joao.silva@email.com"
-  },
-  "produtos": [
-    {
-      "codigoInterno": "P001",
-      "nome": "Produto A",
-      "quantidade": 2,
-      "valorUnitario": 50.0
-    }
-  ],
-  "totalVenda": 100.0
-}
-```
